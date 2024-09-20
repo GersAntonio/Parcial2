@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        nav {
+            margin-bottom: 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            padding: 10px;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 10px;
+            border: 4px solid #007BFF;
+        }
+        
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 50%;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+        }
+        
+        table td {
+            padding: 10px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        table tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        table td:first-child {
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+    </nav>
+
+    <img src="img/yo.jpg" width="200" height="400" alt="Foto personal">
+
+    <table border="1" cellpadding="40">
+        <tr>
+            <td>Nombre:</td>
+            <td>Gerson Antonio Franco Benitez</td>
+        </tr>
+        <tr>
+            <td>Carnet:</td>
+            <td>25-1429-2023</td>
+        </tr>
+        <tr>
+            <td>Carrera:</td>
+            <td>Ingeniería en Sistemas y Computación</td>
+        </tr>
+        <tr>
+            <td>Ciclo:</td>
+            <td>04</td>
+        </tr>
+        <tr>
+            <td>Materia:</td>
+            <td>Desarrollo de la Plataforma Web</td>
+        </tr>
+    </table>
+</body>
+</html>
